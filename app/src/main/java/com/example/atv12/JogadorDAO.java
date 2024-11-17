@@ -8,6 +8,8 @@ import android.database.sqlite.SQLiteDatabase;
 import java.util.ArrayList;
 import java.util.List;
 
+//Otavio Gabriel Ribeiro Scabio - RA 1110482223043
+
 class JogadorDao implements ICRUDDao<Jogador> {
     private SQLiteDatabase db;
     private DatabaseHelper dbHelper;

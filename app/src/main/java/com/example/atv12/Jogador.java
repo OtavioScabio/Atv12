@@ -8,6 +8,8 @@ public class Jogador {
     private double peso;
     private int timeCodigo;
 
+    //Otavio Gabriel Ribeiro Scabio - RA 1110482223043
+
     public Jogador(int id, String nome, String dataNasc, double altura, double peso, int timeCodigo) {
         this.id = id;
         this.nome = nome;

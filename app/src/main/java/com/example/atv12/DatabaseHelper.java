@@ -4,6 +4,8 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+//Otavio Gabriel Ribeiro Scabio - RA 1110482223043
+
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "app.db";
     private static final int DATABASE_VERSION = 1;

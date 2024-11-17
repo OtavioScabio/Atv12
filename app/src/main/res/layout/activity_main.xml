@@ -9,8 +9,8 @@
 
     <EditText
         android:id="@+id/edtNomeTime"
-        android:layout_width="258dp"
-        android:layout_height="0dp"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="4dp"
         android:hint="Nome do Time"
         app:layout_constraintBottom_toTopOf="@+id/edtCidadeTime"
@@ -20,8 +20,8 @@
 
     <EditText
         android:id="@+id/edtCidadeTime"
-        android:layout_width="257dp"
-        android:layout_height="0dp"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="14dp"
         android:hint="Cidade do Time"
         app:layout_constraintBottom_toTopOf="@+id/btnAddTime"
@@ -31,8 +31,8 @@
 
     <Button
         android:id="@+id/btnAddTime"
-        android:layout_width="331dp"
-        android:layout_height="0dp"
+        android:layout_width="241dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="49dp"
         android:text="Adicionar Time"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,8 +42,8 @@
 
     <Button
         android:id="@+id/btnViewTimes"
-        android:layout_width="338dp"
-        android:layout_height="0dp"
+        android:layout_width="246dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="33dp"
         android:text="Ver Times"
         app:layout_constraintBottom_toTopOf="@+id/edtNomeTime"
@@ -53,13 +53,25 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="366dp"
+        android:layout_width="364dp"
         android:layout_height="0dp"
         android:layout_marginTop="39dp"
-        android:layout_marginBottom="13dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnViewTimes"
+        android:layout_marginBottom="353dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="332dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="17dp"
+        android:text="Otavio Gabriel Ribeiro Scabio - RA 1110482223043"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
